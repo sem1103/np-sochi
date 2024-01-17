@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Hermes';
+    src: url('font/hermes.ttf'),
+    url(font/hermes.woff),
+    url(font/hermes.woff2) ;
+
+}
+.container{
+    max-width: 1652px;
+    margin: 0 auto;
+}
+
+p{
+    font: 16px 'Hermes';
+    color: var(--gray);
+}

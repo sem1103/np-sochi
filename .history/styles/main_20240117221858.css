@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+@font-face {
+    font-family: 'Hermes';
+    src: url('font/hermes.ttf'),
+    url(font/hermes.woff),
+    url(font/hermes.woff2) ;
+
+}
+
+
+main{
+    background: url(../img/main-bg.png) center/cover;
+}
+p, li{
+    font: 16px 'Hermes';
+    color: var(--gray);
+}
+p{
+    margin: 0 0 10px 0;
+}
+.top__text{
+    padding: 142px 0 108px 0;
+}
+.text__content{
+    padding: 48px 54px;
+    background-color: #fff;
+    width: 50%;
+    margin: 0 0 30px auto;
+    border-radius: 20px;
+}
+li{
+    list-style: disc;
+    margin: 0 0 0 20px;
+}
+.price__list{
+    width: 50%;
+    margin: 0 0 0 auto;
+}
+.price__list button{
+    padding: 9px 37px;
+    font: 600 18px 'Fira Sans';
+    margin: 0;
+    background: var(--gray);
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+}
+
+h3{
+    color: var(--gray);
+    font: 32px 'Hermes';
+    margin: 0 0 40px 0;
+}
+h5{
+    color: var(--gray);
+    font: 20px Hermes;
+}
+.items__block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item{
+    flex-basis: calc(50% - 50px);
+    background: #fff;
+    padding: 52px 88px 61px 59px;
+    border-radius: 20px;
+   
+}
+.item > div{
+    display: flex;
+    justify-content: space-between;
+}
+ol{
+    margin: 0 0 20px 0;
+}
+ol li{
+    list-style: decimal;
+    font: 20px Hermes;
+    color: var(--gray);
+}
+ol button{
+    font: inherit;
+    color: inherit;
+}

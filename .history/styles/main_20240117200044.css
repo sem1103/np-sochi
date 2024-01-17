@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+@font-face {
+    font-family: 'Hermes';
+    src: url('font/hermes.ttf'),
+    url(font/hermes.woff),
+    url(font/hermes.woff2) ;
+
+}
+
+.container{
+    max-width: 1652px;
+    margin: 0 auto;
+}
+main{
+    background: url(../img/main-bg.png) center/cover;
+}
+p, li{
+    font: 16px 'Hermes';
+    color: var(--gray);
+}
+p{
+    margin: 0 0 10px 0;
+}
+.top__text{
+    padding: 142px 0 30px 0;
+}
+.top__text > div{
+    padding: 48px 54px;
+    background-color: #fff;
+    width: 50%;
+    margin: 0 0 0 auto;
+    border-radius: 20px;
+}
+li{
+    list-style: disc;
+    margin: 0 0 0 20px;
+}
+.price__list{
+    width: 50%;
+}
+.price__list button{
+    padding: 9px 37px;
+    font: 600 18px 'Fira Sans';
+    margin: 0;
+    background: var(--gray);
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+}
