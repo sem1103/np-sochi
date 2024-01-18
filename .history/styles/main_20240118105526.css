@@ -194,6 +194,7 @@ ol div:hover .left__items {
 .all__items{
     column-count: 2;
     width: 100%;
+    margin: 15px 0 0 0;
 }
 
 /*Media*/
@@ -267,10 +268,6 @@ ol div:hover .left__items {
 
     .text__content {
         padding: 23px 20px;
-    }
-    .all__items{
-       column-count: 1;
-        margin: 15px 0 0 0;
     }
 
     ol li,
