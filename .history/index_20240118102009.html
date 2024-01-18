@@ -827,16 +827,12 @@
             if(itemCard?.getBoundingClientRect().right > itemCardCoord){
                 item.classList.add('left__card');
             }
-
-            closeModal.onclick = () => item.classList.remove('active__item');
-
         }
         item.onmouseout = () => {
             item.classList.remove('active__item');
             if(item.classList.contains('left__card'))             item.classList.remove('left__card');
         }
     }); 
-    
 
 
    </script>

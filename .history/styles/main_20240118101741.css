@@ -321,14 +321,14 @@ ol div:hover .left__items {
     }
     .active__item .close__modal{
         display: initial;
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
         position: absolute;
         right: 0;
         bottom: -40px;
         background-color: transparent;
         padding: 0;
         border: 0;
-        z-index: 9999;
+        z-index: 999;
     }
 }

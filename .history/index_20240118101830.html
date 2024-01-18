@@ -821,22 +821,17 @@
         item.onmouseover = () => {
             let parrentRightCoord = itemBlock.offsetLeft + itemBlock.offsetWidth;
             let itemCard = item.querySelector('.item__card');
-            let itemCardCoord = itemBlock.offsetLeft + itemBlock.offsetWidth;
-            let closeModal = item.querySelector('.close__modal');
+            let itemCardCoord = itemBlock.offsetLeft + itemBlock.offsetWidth
             itemCard && item.classList.add('active__item');           
             if(itemCard?.getBoundingClientRect().right > itemCardCoord){
                 item.classList.add('left__card');
             }
-
-            closeModal.onclick = () => item.classList.remove('active__item');
-
         }
         item.onmouseout = () => {
             item.classList.remove('active__item');
             if(item.classList.contains('left__card'))             item.classList.remove('left__card');
         }
     }); 
-    
 
 
    </script>
